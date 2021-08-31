@@ -2,7 +2,7 @@
 
 ```bash
 ## Install template
-$ npx degit ParkYoungWoong/svelte-snowpack-template DIR_NAME
+$ npx degit develinu/svelte-snowpack-template DIR_NAME
 
 ## Change directory
 $ cd DIR_NAME
