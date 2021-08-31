@@ -3,10 +3,7 @@ const autoPreprocess = require('svelte-preprocess');
 const production = process.env.NODE_ENV === 'production'
 
 module.exports = {
-  preprocess: autoPreprocess({
-    defaults: {
-      script: 'typescript',
-    },
+  preprocess: autoPreprocess({    
     scss: {
       prependData: '@import "./src/scss/main.scss";'
     },

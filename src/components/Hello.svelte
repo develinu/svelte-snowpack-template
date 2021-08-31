@@ -1,5 +1,5 @@
-<script lang="ts">
-  export let count: number = 1
+<script>
+  export let count = 1
 
   $: double = count * 2
 </script>

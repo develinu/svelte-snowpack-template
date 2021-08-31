@@ -1,9 +1,5 @@
-<script lang="ts">
+<script>
 	import Hello from '~/components/Hello.svelte'
-  import { testStore } from './store/testStore'
-
-  // Remove this!
-  $testStore.run('AB', 12)
 </script>
 
 <h1>Hello Svelte & Snowpack!</h1>
